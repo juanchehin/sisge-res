@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Restaurant</title>
+        <title>SisgeRes</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -18,6 +18,9 @@
     </head>
 
     <body>
+        <a href="https://api.whatsapp.com/send?phone=+543865415369&text=Quiero chatear con alguien." class="floating" target="_blank">
+            <i class="fa fa-whatsapp float-button"></i>
+        </a>
 
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -30,20 +33,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Restaurant</a>
+                        <a class="navbar-brand" href="#">SisgeRes</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav main-nav  clear navbar-right ">
-                            <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
-                            <li><a class="color_animation" href="#story">ABOUT</a></li>
-                            <li><a class="color_animation" href="#pricing">PRICING</a></li>
-                            <li><a class="color_animation" href="#beer">BEER</a></li>
-                            <li><a class="color_animation" href="#bread">BREAD</a></li>
-                            <li><a class="color_animation" href="#featured">FEATURED</a></li>
-                            <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
-                            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                            <li><a class="navactive color_animation" href="#top">Bienvenido</a></li>
+                            <li><a class="color_animation" href="#story">Acerca de</a></li>
+                            <li><a class="color_animation" href="#pricing">Precios</a></li>
+                            <li><a class="color_animation" href="#contact">Contacto</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -53,8 +52,8 @@
         <div id="top" class="starter_container bg">
             <div class="follow_container">
                 <div class="col-md-6 col-md-offset-3">
-                    <h2 class="top-title"> Restaurant</h2>
-                    <h2 class="white second-title">" Best in the city "</h2>
+                    <h2 class="top-title"> SisgeRes</h2>
+                    <h2 class="white second-title">" Sistema para restaurantes/bares "</h2>
                     <hr>
                 </div>
             </div>
@@ -65,9 +64,9 @@
         <section id="story" class="description_content">
             <div class="text-content container">
                 <div class="col-md-6">
-                    <h1>About us</h1>
+                    <h1>Acerca del SisgeRes</h1>
                     <div class="fa fa-cutlery fa-2x"></div>
-                    <p class="desc-text">Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
+                    <p class="desc-text">"SisgeRes" es un software avanzado y completo diseñado especialmente para bares y restaurantes que buscan simplificar y optimizar sus operaciones diarias. Con una interfaz intuitiva y funciones poderosas, este software se convierte en el aliado ideal para llevar la gestión de tu negocio gastronómico al siguiente nivel.</p>
                 </div>
                 <div class="col-md-6">
                     <div class="img-section">
@@ -295,7 +294,7 @@
         <section class="social_connect">
             <div class="text-content container"> 
                 <div class="col-md-6">
-                    <span class="social_heading">FOLLOW</span>
+                    <span class="social_heading">Seguinos</span>
                     <ul class="social_icons">
                         <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
                         <li><a class="icon-github color_animation" href="#" target="_blank"></a></li>
@@ -304,8 +303,8 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <span class="social_heading">OR DIAL</span>
-                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(941) 883-335-6524</a></span>
+                    <span class="social_heading">Telefono</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524">(3865) 415369</a></span>
                 </div>
             </div>
         </section>
@@ -313,9 +312,6 @@
         <!-- ============ Contact Section  ============= -->
 
         <section id="contact">
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.664063989472!2d91.8316103150038!3d24.909437984030877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505558dd0be6a1%3A0x65c7e47c94b6dc45!2sTechnext!5e0!3m2!1sen!2sbd!4v1444461079802" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -357,10 +353,14 @@
 
         <footer class="sub_footer">
             <div class="container">
-                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Restaurant 2014, Theme by <a href="https://themewagon.com/">ThemeWagon</a></p></div>
-                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                <div class="col-md-4"><p class="sub-footer-text text-center">
+                    SisgeRes 
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
                 </div>
-                <div class="col-md-4"><p class="sub-footer-text text-center">Built With Care By <a href="#" target="_blank">Us</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Ir al <a href="#top">inicio</a></p>
+                </div>
             </div>
         </footer>
 
